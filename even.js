@@ -1,12 +1,9 @@
 var read=require('readline-sync')
 
-var value1=read.question('enter the limit number  ')
+var value=read.question('enter the limit number  ')
 // var value2=read.question('enter the limit number  ')
 
-for(i=0; i<value1; i++)
+for(i=0; i<=value; i=i+2)
 {
-    for(j=1; j<=i; j++)
-    {
-        console.log("&")
-    }
+   console.log(i)
 }

@@ -4,6 +4,7 @@
   "description": "",
   "main": "array.js",
   "dependencies": {
+    "express": "^4.17.1",
     "readline-sync": "^1.4.10",
     "upper-case": "^2.0.2"
   },
